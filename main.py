@@ -1,5 +1,5 @@
 import csv
-
+import os
 from flask import Flask, request, url_for, redirect
 from flask.templating import render_template
 
@@ -7,7 +7,8 @@ app = Flask(__name__)
 
 
 def write_to_csv_file(data: dict):
-    with open(r'data\data.csv', 'a', newline='') as csv_file:
+    path = os.path.join(os.getcwd(), 'data', 'data.csv')
+    with open(path, 'a', newline='') as csv_file:
         email = data['email']
         subject = data['subject']
         message = data['message']
