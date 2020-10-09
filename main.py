@@ -39,12 +39,6 @@ def submit_form():
         return redirect('thank_you.html')
     else:
         return 'error'
-<<<<<<< HEAD
-    
+
 if __name__ == '__main__':
-=======
-
-
-if __name__ == "__main__":
->>>>>>> 797fa94c8b7561c6710c58fec80050284ed196f3
     app.run()
