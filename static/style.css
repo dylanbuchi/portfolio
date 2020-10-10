@@ -5921,10 +5921,41 @@ textarea {
 
 .card-container {
     background-color: rgba(255, 255, 255, 0.699);
-    padding: 2rem 5rem;
+    padding: 5rem 5rem;
     position: relative;
     width: 80%;
     margin: -5.7em auto 20px
+}
+
+.project-image {
+    max-height: 90%;
+    min-height: 20vw;
+    max-width: 90%;
+    min-width: 20vw;
+
+
+
+}
+
+.project-image_a {
+    max-height: 90%;
+    min-height: 20vw;
+    max-width: 90%;
+    min-width: 20vw;
+
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+.project {
+
+    padding-bottom: 3rem;
+}
+
+.project_a {
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+
 }
 
 @media (max-width:992px) {
