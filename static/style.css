@@ -5930,19 +5930,19 @@ textarea {
 }
 
 .card-container {
-    background-color: rgba(255, 255, 255, 0.699);
-    padding: 1rem 4rem;
+    background-color: rgba(255, 255, 255, 0.835);
+    padding: 3rem 4rem;
     position: relative;
     width: 100%;
-    margin: -5.7em auto 20px
+    margin: -5.6em auto 20px
 }
 
 .card-container_a {
-    background-color: rgba(255, 255, 255, 0.699);
-    padding: 1rem 4rem;
+    background-color: rgba(255, 255, 255, 0.835);
+    padding: 3rem 4rem;
     position: relative;
     width: 100%;
-    margin: -5.7em auto 20px
+    margin: -5.6em auto 20px
 }
 
 .project-image {
