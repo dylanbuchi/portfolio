@@ -1,18 +1,45 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+
+/* .d {
+
+    padding-top: 50px;
+} */
+
+/* .icon-p {
+    padding-top: 10px;
+} */
+
+.d {}
+
+.devicon-python-plain-wordmark {
+    font-size: 80px;
+    color: darkblue;
+}
+
+
+
+.vscode {
+    fill: #4691f6;
+}
+
+.dev-icons {
+    padding-left: 50px;
+}
+
+svg {
+    /* padding: 5px; */
+    width: 100px;
+    height: 80px;
+}
 
 html {
+
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -1043,6 +1070,7 @@ pre code {
 .col-xs-12 {
     position: relative;
     min-height: 1px;
+    padding-top: 0px;
     padding-left: 15px;
     padding-right: 15px
 }
