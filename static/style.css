@@ -15,22 +15,26 @@
 .d {}
 
 .devicon-python-plain-wordmark {
+
     font-size: 80px;
     color: darkblue;
+    padding: 5px;
 }
 
 
 
 .vscode {
     fill: #4691f6;
+    padding: 5px;
 }
 
-.dev-icons {
+/* .dev-icons {
     padding-left: 50px;
-}
+} */
 
 svg {
     /* padding: 5px; */
+    padding: 5px;
     width: 100px;
     height: 80px;
 }
