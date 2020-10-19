@@ -1086,11 +1086,17 @@ pre code {
 .col-xs-12 {
     position: relative;
     min-height: 1px;
-    padding-top: 0px;
     padding-left: 15px;
     padding-right: 15px;
 }
-
+.col-certf {
+    position: relative;
+    min-height: 1px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100px;
+}
 .col-xs-1,
 .col-xs-2,
 .col-xs-3,
@@ -1315,6 +1321,7 @@ pre code {
     .col-sm-2,
     .col-sm-3,
     .col-sm-4,
+    .col-certf,
     .col-sm-5,
     .col-sm-6,
     .col-sm-7,
@@ -1341,7 +1348,9 @@ pre code {
     .col-sm-4 {
         width: 33.33333%;
     }
-
+    .col-certf {
+        width: 33.33333%;
+    }
     .col-sm-5 {
         width: 41.66667%;
     }
