@@ -13,18 +13,26 @@
 } */
 
 .svg-icon {
-    font-size: 0px;
+    font-size: 85px;
+
 }
 
-.devicon-python-plain-wordmark {
+/* .m {
+    width: 50px;
+    height: 50px;
 
-    font-size: 60px;
-    color: darkblue;
-    padding: 5px;
-    display: inline-block;
 }
 
+.python {
+    width: 45px;
+    height: 45px;
 
+}
+
+.django {
+    width: 60px;
+    height: 60px;
+} */
 
 .vscode {
     fill: #4691f6;
@@ -39,8 +47,9 @@
 svg {
 
     display: inline-block;
-    width: 70px;
-    height: 50px;
+    max-width: fit-content;
+    height: 70px;
+    padding-top: 20px;
 }
 
 html {
