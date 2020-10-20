@@ -1,216 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width,initial-scale=1" name="viewport" />
+        <meta content="description" name="description" />
+        <meta name="google" content="notranslate" />
+        <meta
+            content="Mashup templates have been developped by Orson.io team"
+            name="author"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+            rel="stylesheet"
+        />
 
-<head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+        <!-- Disable tap highlight on IE -->
+        <meta name="msapplication-tap-highlight" content="no" />
 
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/static/assets/apple-icon-180x180.png"
+        />
+        <link href="/static/assets/favicon.ico" rel="icon" />
 
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
+        <title>Projects</title>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/static/assets/apple-icon-180x180.png">
-  <link href="/static/assets/favicon.ico" rel="icon">
+        <link href="/static/style.css" rel="stylesheet" />
+    </head>
 
-  <title>Projects</title>
+    <body class="">
+        <div id="site-border-left"></div>
+        <div id="site-border-right"></div>
+        <div id="site-border-top"></div>
+        <div id="site-border-bottom"></div>
+        <!-- Add your content of header -->
+        <header>
+            <nav class="navbar navbar-fixed-top navbar-default">
+                <div class="container">
+                    <button
+                        type="button"
+                        class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#navbar-collapse"
+                        aria-expanded="false"
+                    >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-  <link href="/static/style.css" rel="stylesheet">
-</head>
-
-<body class="">
-  <div id="site-border-left"></div>
-  <div id="site-border-right"></div>
-  <div id="site-border-top"></div>
-  <div id="site-border-bottom"></div>
-  <!-- Add your content of header -->
-  <header>
-    <nav class="navbar  navbar-fixed-top navbar-default">
-      <div class="container">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
-          aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-          <ul class="nav navbar-nav ">
-            <li><a href="./index.html" title="">Home</a></li>
-            <li><a href="./certification.html" title="">Certificates</a></li>
-            <li><a href="./about.html" title="">About me</a></li>
-            <li><a href="./contact.html" title="">Contact</a></li>
-            <li> <a href="https://www.linkedin.com/in/dylanbuchi/" target="_blank" title="" class="ic">
-                <i class="fa fa-linkedin-square fa-2x"></i>
-              </a>
-            </li>
-            <li> <a href="https://github.com/dylanbuchi" target="_blank" title="" class="ic-g">
-                <i class="fa fa-github-square fa-2x"></i> </a></li>
-
-          </ul>
-
-
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-sm-8 col-sm-offset-2 section-container-spacer">
-          <div class="text-center">
-            <h1 class="h2">Projects</h1>
-            <p>Here you can discover some of the projects I made</p>
-          </div>
-        </div>
-
-        <div class="col-md-12">
-
-          <div id="myCarousel" class="carousel slide projects-carousel">
-            <!-- Carousel items -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <div class="row">
-                  <!--projects-->
-                  <div class="col-sm-4">
-                    <a href="https://github.com/dylanbuchi/Coffee-Machine#demo" target="_blank"
-                      class="black-image-project-hover">
-                      <img src="/static/assets/images/work01-hover.jpg" alt="" class="img-responsive">
-                    </a>
-
-                    <div class="card-container_a">
-                      <h4>Java</h4>
-                      <h3>Coffee Machine</h3>
-                      <p>A simple coffee machine that can make three types of coffee: espresso, cappuccino and latte</p>
-                      <a href="https://github.com/dylanbuchi/Coffee-Machine#demo" target="_blank"
-                        class="btn btn-default">Discover</a>
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="./index.html" title="">Home</a></li>
+                            <li>
+                                <a href="./certification.html" title=""
+                                    >Certificates</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./about.html" title="">About me</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html" title="">Contact</a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/in/dylanbuchi/"
+                                    target="_blank"
+                                    title=""
+                                    class="ic"
+                                >
+                                    <i class="fa fa-linkedin-square fa-2x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://github.com/dylanbuchi"
+                                    target="_blank"
+                                    title=""
+                                    class="ic-g"
+                                >
+                                    <i class="fa fa-github-square fa-2x"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <a href="https://github.com/dylanbuchi/Hangman#hangman" target="_blank"
-                      class="black-image-project-hover">
-                      <img src="/static/assets/images/work06.jpg" alt="Image" class="img-responsive">
-                    </a>
-                    <div class="card-container">
+                </div>
+            </nav>
+        </header>
+
+        <div class="section-container">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-sm-8 col-sm-offset-2 section-container-spacer"
+                    >
+                        <div class="text-center">
+                            <h1 class="h2">Projects</h1>
+                            <p>
+                                Here you can discover some of the projects I
+                                made
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div
+                            id="myCarousel"
+                            class="carousel slide projects-carousel"
+                        >
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="row">
+                                        <!--projects-->
+                                        <div class="col-sm-4">
+                                            <a
+                                                href="https://github.com/dylanbuchi/Coffee-Machine#demo"
+                                                target="_blank"
+                                                class="black-image-project-hover"
+                                            >
+                                                <img
+                                                    src="/static/assets/images/work01-hover.jpg"
+                                                    alt=""
+                                                    class="img-responsive"
+                                                />
+                                            </a>
+
+                                            <div class="card-container_a">
+                                                <h4>Java</h4>
+                                                <h3>Coffee Machine</h3>
+                                                <p>
+                                                    A simple coffee machine that
+                                                    can make three types of
+                                                    coffee: espresso, cappuccino
+                                                    and latte
+                                                </p>
+
+                                                <a
+                                                    href="https://github.com/dylanbuchi/Coffee-Machine#demo"
+                                                    target="_blank"
+                                                    class="btn btn-default"
+                                                    >Discover</a
+                                                >
+                                            </div>
+                                        </div>
+                                        <!-- <div class="col-sm-4">
+                                            <a
+                                                href="https://github.com/dylanbuchi/Hangman#hangman"
+                                                target="_blank"
+                                                class="black-image-project-hover"
+                                            >
+                                                <img
+                                                    src="/static/assets/images/work06.jpg"
+                                                    alt="Image"
+                                                    class="img-responsive"
+                                                />
+                                            </a> -->
+                                        <!-- <div class="card-container">
                       <h4>Java</h4>
                       <h3>Hangman Game</h3>
                       <p>Play the hangman game inside your terminal.</p>
                       <a href="https://github.com/dylanbuchi/Hangman#hangman" target="_blank"
                         class="btn btn-default">Discover</a>
+                    </div> -->
+                                        <div class="col-sm-4">
+                                            <a
+                                                href="https://github.com/dylanbuchi/discord_bot#discord-bot-sb"
+                                                target="_blank"
+                                                class="black-image-project-hover"
+                                            >
+                                                <img
+                                                    src="/static/assets/images/work06.jpg"
+                                                    alt="Image"
+                                                    class="img-responsive"
+                                                />
+                                            </a>
+                                            <div class="card-container_a">
+                                                <h4>Python</h4>
+                                                <h3>Discord Bot</h3>
+                                                <p>
+                                                    Created a bot for the
+                                                    SwissBorg Discord Server.
+                                                    <br />
+                                                    <br />
+                                                </p>
+
+                                                <a
+                                                    href="https://github.com/dylanbuchi/discord_bot"
+                                                    target="_blank"
+                                                    class="btn btn-default"
+                                                    >Discover</a
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <a
+                                                href="https://github.com/dylanbuchi/password-checker"
+                                                target="_blank"
+                                                class="black-image-project-hover"
+                                            >
+                                                <img
+                                                    src="/static/assets/images/work05.jpg"
+                                                    alt="Image"
+                                                    class="img-responsive"
+                                                />
+                                            </a>
+                                            <div class="card-container_a">
+                                                <h4>Python</h4>
+                                                <h3>Password Checker</h3>
+                                                <p>
+                                                    Program that can check if a
+                                                    password has been leaked or
+                                                    not
+                                                    <br />
+                                                    <br />
+                                                </p>
+
+                                                <a
+                                                    href="https://github.com/dylanbuchi/password-checker"
+                                                    target="_blank"
+                                                    class="btn btn-default"
+                                                    >Discover</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/row-->
+                                </div>
+                                <!--/item-->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <a
+                                                href="https://github.com/dylanbuchi/Expenses#expenses-app-made-with-flutter"
+                                                target="_blank"
+                                                class="black-image-project-hover"
+                                            >
+                                                <img
+                                                    src="/static/assets/images/work04.jpg"
+                                                    alt="Image"
+                                                    class="img-responsive"
+                                                />
+                                            </a>
+                                            <div class="card-container_a">
+                                                <h4>Dart/Flutter</h4>
+                                                <h3>Expenses Tracker App</h3>
+                                                <p>
+                                                    Application to keep track of
+                                                    your spending.
+                                                </p>
+
+                                                <a
+                                                    href="https://github.com/dylanbuchi/Expenses#expenses-app-made-with-flutter"
+                                                    target=" _blank"
+                                                    class="btn btn-default"
+                                                    >Discover</a
+                                                >
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <a
+                                                href="https://github.com/dylanbuchi/Movies#movies"
+                                                target="_blank"
+                                                class="black-image-project-hover"
+                                            >
+                                                <img
+                                                    src="/static/assets/images/work02-hover.jpg"
+                                                    alt=""
+                                                    class="img-responsive"
+                                                />
+                                            </a>
+                                            <div class="card-container_a">
+                                                <h4>Dart/Flutter</h4>
+                                                <h3>Cinema Shop App</h3>
+                                                <p>
+                                                    Cinema app where you can
+                                                    login to buy movies and
+                                                    watch trailers.
+                                                </p>
+                                                <a
+                                                    href="https://github.com/dylanbuchi/Movies#movies"
+                                                    target="_blank"
+                                                    class="btn btn-default"
+                                                    >Discover</a
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <a
+                                                href="https://github.com/dylanbuchi/Hangman#hangman"
+                                                target="_blank"
+                                                class="black-image-project-hover"
+                                            >
+                                                <img
+                                                    src="/static/assets/images/work07-hover.jpg"
+                                                    alt=""
+                                                    class="img-responsive"
+                                                />
+                                            </a>
+                                            <div class="card-container_a">
+                                                <h4>Java</h4>
+                                                <h3>Hangman Game</h3>
+                                                <p>
+                                                    Play the hangman game inside
+                                                    your terminal.
+                                                </p>
+                                                <a
+                                                    href="https://github.com/dylanbuchi/Hangman"
+                                                    target="_blank"
+                                                    class="btn btn-default"
+                                                    >Discover</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/row-->
+                                </div>
+
+                                <!--/item-->
+                            </div>
+                            <!--/carousel-inner-->
+                            <a
+                                class="left carousel-control"
+                                href="#myCarousel"
+                                data-slide="prev"
+                                >‹</a
+                            >
+
+                            <a
+                                class="right carousel-control"
+                                href="#myCarousel"
+                                data-slide="next"
+                                >›</a
+                            >
+                        </div>
+
+                        <!--/myCarousel-->
                     </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <a href="https://github.com/dylanbuchi/password-checker" target="_blank"
-                      class="black-image-project-hover">
-                      <img src="/static/assets/images/work05.jpg" alt="Image" class="img-responsive">
-                    </a>
-                    <div class="card-container">
-                      <h4>Python</h4>
-                      <h3>Password Checker</h3>
-                      <p>Program that can check if a password has been leaked or not</p>
-                      <a href="https://github.com/dylanbuchi/password-checker" target="_blank"
-                        class="btn btn-default">Discover</a>
-                    </div>
-                  </div>
-
-
-
                 </div>
-                <!--/row-->
-              </div>
-              <!--/item-->
-              <div class="item">
-                <div class="row">
-                  <div class="col-sm-4">
-                    <a href="https://github.com/dylanbuchi/Expenses#expenses-app-made-with-flutter" target="_blank"
-                      class="black-image-project-hover">
-                      <img src="/static/assets/images/work04.jpg" alt="Image" class="img-responsive">
-                    </a>
-                    <div class="card-container_a">
-                      <h4>Dart/Flutter</h4>
-                      <h3>Expenses Tracker App</h3>
-                      <p>Application to keep track of your spendings</p>
-                      <a href="https://github.com/dylanbuchi/Expenses#expenses-app-made-with-flutter" target=" _blank"
-                        class="btn btn-default">Discover</a>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-4">
-                    <a href="https://github.com/dylanbuchi/Movies#movies" target="_blank"
-                      class="black-image-project-hover">
-                      <img src="/static/assets/images/work02-hover.jpg" alt="" class="img-responsive">
-                    </a>
-                    <div class="card-container">
-                      <h4>Dart/Flutter</h4>
-                      <h3>Cinema app</h3>
-                      <p>Cinema app where you can login to buy movies and watch trailers</p>
-                      <a href="https://github.com/dylanbuchi/Movies#movies" target="_blank"
-                        class="btn btn-default">Discover</a>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-4">
-                    <a href="https://dylanbuchi.github.io/dog/" target="_blank" title=""
-                      class="black-image-project-hover">
-                      <img src="/static/assets/images/work03-hover.jpg" alt="" class="img-responsive">
-                    </a>
-                    <div class="card-container">
-                      <h4>Html/Css</h4>
-                      <h3>Tindog</h3>
-                      <p>Website for a dating app for dogs</p>
-                      <a href="https://dylanbuchi.github.io/dog/" target="_blank" title=""
-                        class="btn btn-default">Discover</a>
-                    </div>
-                  </div>
-
-                </div>
-                <!--/row-->
-              </div>
-
-              <!--/item-->
             </div>
-            <!--/carousel-inner-->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
-          </div>
-
-
-
-          <!--/myCarousel-->
         </div>
 
+        <footer class="footer-container text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>© Dylan Buchi | 2020</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function (event) {
+                navActivePage();
+            });
+        </script>
 
-      </div>
-    </div>
-  </div>
-
-
-  <footer class="footer-container text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <p>© Dylan Buchi | 2020 </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-      navActivePage();
-    });
-  </script>
-
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID
 
 <script>
   (function (i, s, o, g, r, a, m) {
@@ -224,7 +376,6 @@
 </script>
 
 -->
-  <script type="text/javascript" src="/static/script.js"></script>
-</body>
-
+        <script type="text/javascript" src="/static/script.js"></script>
+    </body>
 </html>
