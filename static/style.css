@@ -9,7 +9,38 @@
 /* .icon-p {
     padding-top: 10px;
 } */
+.active-j {
+    color: red;
+    transition: all 0.5s ease;
+}
 
+.active-p {
+    color: green;
+    transition: all 0.5s ease;
+}
+
+.active-d {
+    color: rgb(15, 83, 209);
+    transition: all 0.5s ease;
+}
+.hjava:hover {
+    color: red;
+}
+.hjava :after {
+    color: red;
+}
+
+.hpy:hover {
+    color: green;
+}
+
+.hdart:hover {
+    color: rgb(15, 83, 209);
+}
+a img:hover {
+    position: relative;
+    top: -5px;
+}
 .hov:hover,
 h1.h2:hover {
     color: #5c0091;
@@ -375,8 +406,8 @@ html {
 
 body {
     font-family: "Titillium Web", Arial, sans-serif;
-    font-size: 20px;
-    line-height: 1.78;
+    font-size: 16px;
+    line-height: 1.5;
     color: #000;
     background-color: #fff;
 }
@@ -6020,7 +6051,7 @@ textarea {
     padding: 3rem 4rem;
     position: relative;
     width: 100%;
-    margin: -5.6em auto 20px;
+    margin: -3.9em auto 20px;
 }
 
 .project-image {
@@ -6057,13 +6088,13 @@ textarea {
     }
 }
 
-/* @media (max-width: 992px) {
+@media (max-width: 992px) {
     .card-container.card-container-lg {
         width: 90%;
         padding: 2rem 3em;
         margin-top: -10em;
     }
-} */
+}
 
 .black-image-project-hover {
     display: block;
