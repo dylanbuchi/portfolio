@@ -156,6 +156,11 @@ html {
 }
 
 body {
+    background: url("assets/images/bg-2.jpg") no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin: 0;
 }
 
@@ -6111,7 +6116,8 @@ textarea {
         margin-top: 20px;
     }
 }
-.p-proj, .p-cert {
+.p-proj,
+.p-cert {
     background-color: rgb(254, 245, 255);
     margin-top: 20px;
     margin-left: 20%;
