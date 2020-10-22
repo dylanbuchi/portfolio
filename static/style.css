@@ -1442,7 +1442,8 @@ pre code {
     margin-left: 100%;
 }
 
-@media (min-width: 768px) {
+/* min-width: 768px */
+@media (min-width: 992px) {
     .col-sm-1,
     .col-sm-2,
     .col-sm-3,
@@ -1472,7 +1473,7 @@ pre code {
     }
 
     .col-sm-4 {
-        width: 33.33333%;
+        width: 33%;
     }
     .col-certf {
         width: 33.33333%;
@@ -6160,7 +6161,7 @@ textarea {
     padding: 3rem 4rem;
     position: relative;
     width: 100%;
-    margin: -3.9em auto 20px;
+    margin: -1em auto 50px;
 }
 
 .project-image {
