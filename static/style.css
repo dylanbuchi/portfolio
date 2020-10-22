@@ -9,6 +9,44 @@
 /* .icon-p {
     padding-top: 10px;
 } */
+
+/* icons resizes */
+@media (max-width: 1000px) {
+    .svg-div {
+        padding-left: 20px;
+        width: 55%;
+    }
+}
+
+@media (max-width: 541px) {
+    .svg-div {
+        width: 110%;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 361px) {
+    .svg-div {
+        width: 100%;
+    }
+}
+@media (max-width: 376px) {
+    .svg-div {
+        width: 100%;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 321px) {
+    .svg-div {
+        width: 100%;
+        padding-left: 10px;
+    }
+}
+
+.svg-div {
+    padding-top: 15px;
+    position: relative;
+    min-height: 1px;
+}
 .active-j {
     color: red;
     transition: all 0.5s ease;
