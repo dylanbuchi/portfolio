@@ -7,8 +7,15 @@
 } */
 
 /* .icon-p {
-    padding-top: 10px;
+    padding-top:
+    
+    10px;
 } */
+.python:hover,
+.vscode:hover,
+svg.icon-fill:hover {
+    filter: invert(0) sepia(0) saturate(2.2) hue-rotate(0deg) brightness(1.2);
+}
 .about-image {
     padding-top: 10px;
 }
@@ -22,7 +29,7 @@
     margin-bottom: 50px;
 }
 .footer-hov:hover {
-    color: white;
+    color: rgb(254, 245, 255);
 }
 
 /* icons resizes */
@@ -96,7 +103,7 @@ a img.img-responsive-p:hover {
 }
 .hov:hover,
 h1.h2:hover {
-    color: rgb(227, 227, 255);
+    color: rgb(254, 245, 255);
 }
 title :hover {
     color: #0077b5;
@@ -148,7 +155,6 @@ svg {
     height: 70px;
     padding-top: 20px;
 }
-
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -529,6 +535,9 @@ img,
 }
 .python_h2 {
     margin-left: 40px;
+}
+.python_h2:hover {
+    color: rgb(254, 245, 255);
 }
 
 .about-image {
@@ -1138,6 +1147,7 @@ pre code {
 }
 
 .row {
+    padding-top: 20px;
     margin-left: -15px;
     margin-right: -15px;
 }
@@ -6123,6 +6133,16 @@ textarea {
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 20px;
+    padding: 5px;
+}
+.p-proj,
+.p-cert:hover {
+    background-color: rgb(254, 245, 255);
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    padding: 5px;
 }
 .card-container {
     background-color: rgb(254, 245, 255);
