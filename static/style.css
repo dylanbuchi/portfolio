@@ -9,6 +9,21 @@
 /* .icon-p {
     padding-top: 10px;
 } */
+.about-image {
+    padding-top: 10px;
+}
+.hov {
+    padding-left: 15px;
+}
+.about-cont {
+    background-color: rgb(254, 245, 255);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.footer-hov:hover {
+    color: white;
+}
 
 /* icons resizes */
 @media (max-width: 1000px) {
@@ -75,13 +90,13 @@
 .hdart:hover {
     color: rgb(15, 83, 209);
 }
-a img:hover {
+a img.img-responsive-p:hover {
     position: relative;
-    top: -5px;
+    border-radius: 100%;
 }
 .hov:hover,
 h1.h2:hover {
-    color: #5c0091;
+    color: rgb(227, 227, 255);
 }
 title :hover {
     color: #0077b5;
@@ -97,6 +112,11 @@ title :hover {
 .ic-g :hover {
     color: #5c0091;
 }
+
+.ic-gc :hover {
+    color: white;
+}
+
 /* .m {
     width: 50px;
     height: 50px;
@@ -479,24 +499,39 @@ figure {
     margin: 0;
 }
 
-img {
+img,
+.about-image {
     vertical-align: middle;
 }
+
+/* .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} */
 
 .img-responsive {
     display: block;
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
 }
-
+.img-responsive-p {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
 .python_h2 {
     margin-left: 40px;
 }
 
-.img-responsive_a {
+.about-image {
     display: block;
-    max-width: 100%;
+    max-width: 100;
     height: auto;
+    margin-top: 80px;
+    border-radius: 20px;
 }
 
 .img-rounded {
@@ -3077,6 +3112,7 @@ fieldset[disabled] a.btn {
     color: #000;
     background-color: transparent;
     border-color: #000;
+    border-radius: 20px;
 }
 
 .btn-default.active,
@@ -6075,9 +6111,15 @@ textarea {
         margin-top: 20px;
     }
 }
-
+.p-proj, .p-cert {
+    background-color: rgb(254, 245, 255);
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+}
 .card-container {
-    background-color: rgba(255, 255, 255, 0.835);
+    background-color: rgb(254, 245, 255);
     padding: 3rem 4rem;
     position: relative;
     width: 100%;
@@ -6085,7 +6127,10 @@ textarea {
 }
 
 .card-container_a {
-    background-color: rgba(255, 255, 255, 0.835);
+    background-color: rgb(254, 245, 255);
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     padding: 3rem 4rem;
     position: relative;
     width: 100%;
@@ -6234,7 +6279,7 @@ textarea {
     .navbar-default .navbar-collapse,
     .navbar-inverse .navbar-collapse {
         margin: 0;
-        padding: 30px 0;
+        padding: 10px 0;
     }
 
     .navbar-default .navbar-collapse .navbar-nav,
