@@ -4547,8 +4547,8 @@ tbody.collapse.in {
 }
 
 .navbar-nav {
-    text-align: right;
-    justify-content: right;
+    text-align: center;
+    justify-content: center;
     margin: 0.25px -15px;
 }
 
