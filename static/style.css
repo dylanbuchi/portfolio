@@ -4129,7 +4129,6 @@ tbody.collapse.in {
 
 .nav {
     margin-bottom: 0;
-
     list-style: none;
 }
 
@@ -4548,6 +4547,7 @@ tbody.collapse.in {
 }
 
 .navbar-nav {
+    float: right;
     margin: 0.25px -15px;
 }
 
@@ -6385,7 +6385,21 @@ textarea {
         border: none;
     }
 }
+@media (max-width: 762px) {
+    .navbar-default .navbar-nav > li > a {
+        text-align: center;
+        justify-content: right;
+    }
 
+    .nav {
+        margin-top: 25px;
+    }
+    .nav > li,
+    .nav > li > a {
+        position: relative;
+        display: block;
+    }
+}
 @media (min-width: 768px) {
     .navbar-default .navbar-nav > li > a {
         border-right: 1px solid #000;
