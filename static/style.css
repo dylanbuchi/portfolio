@@ -4129,7 +4129,7 @@ tbody.collapse.in {
 
 .nav {
     margin-bottom: 0;
-    padding-left: 0;
+
     list-style: none;
 }
 
@@ -4371,6 +4371,7 @@ tbody.collapse.in {
 }
 
 .navbar-collapse {
+    float: right;
     overflow-x: visible;
     padding-right: 15px;
     padding-left: 15px;
