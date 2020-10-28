@@ -11,6 +11,7 @@
     
     10px;
 } */
+
 .python:hover,
 .vscode:hover,
 svg.icon-fill:hover {
@@ -69,19 +70,30 @@ svg.icon-fill:hover {
     position: relative;
     min-height: 1px;
 }
+
+/* works script js active projects colors */
 .active-j {
-    color: red;
+    color: rgb(151, 11, 11);
     transition: all 0.5s ease;
 }
 
 .active-p {
-    color: green;
+    color: rgb(0, 99, 0);
     transition: all 0.5s ease;
 }
 
 .active-d {
-    color: rgb(15, 83, 209);
+    color: rgb(0, 44, 126);
     transition: all 0.5s ease;
+}
+
+.active-js {
+    color: goldenrod;
+    transition: all 0.5s ease;
+}
+/* projects hover colors */
+.hjs:hover {
+    color: gold;
 }
 .hjava:hover {
     color: red;
@@ -91,12 +103,13 @@ svg.icon-fill:hover {
 }
 
 .hpy:hover {
-    color: green;
+    color: rgb(0, 197, 0);
 }
 
 .hdart:hover {
-    color: rgb(15, 83, 209);
+    color: rgb(0, 89, 255);
 }
+
 a img.img-responsive-p:hover {
     position: relative;
     border-radius: 100%;
