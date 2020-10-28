@@ -4371,7 +4371,7 @@ tbody.collapse.in {
 }
 
 .navbar-collapse {
-    float: right;
+    float: none;
     overflow-x: visible;
     padding-right: 15px;
     padding-left: 15px;
@@ -4396,7 +4396,9 @@ tbody.collapse.in {
 
 @media (min-width: 768px) {
     .navbar-collapse {
+        float: right;
         width: auto;
+        height: auto;
         border-top: 0;
         box-shadow: none;
     }
