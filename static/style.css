@@ -4547,7 +4547,8 @@ tbody.collapse.in {
 }
 
 .navbar-nav {
-    float: right;
+    text-align: right;
+    justify-content: right;
     margin: 0.25px -15px;
 }
 
@@ -6387,8 +6388,6 @@ textarea {
 }
 @media (max-width: 762px) {
     .navbar-default .navbar-nav > li > a {
-        text-align: center;
-        justify-content: right;
     }
 
     .nav {
