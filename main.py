@@ -1,5 +1,9 @@
 import csv
 import os
+import dotenv
+dotenv.load_dotenv()
+
+from pymongo import MongoClient
 from flask import Flask, request, url_for, redirect
 from flask.templating import render_template
 
@@ -35,10 +39,18 @@ def submit_form():
     if request.method == 'POST':
         data = request.form.to_dict()
         write_to_csv_file(data)
-
+        write_to_database(data)
         return redirect('thank_you.html')
     else:
         return 'error'
+
+
+def write_to_database(data: dict):
+    client = MongoClient(os.getenv('DATABASE'))
+    db = client.portfolio
+    collection = db.contact
+    collection.insert_one(data)
+    client.close()
 
 
 if __name__ == '__main__':
