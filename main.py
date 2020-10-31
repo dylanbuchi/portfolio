@@ -44,7 +44,7 @@ def submit_form():
 
 
 def write_to_database(data: dict):
-    client = MongoClient(os.environ.get('DATABASE'))
+    client = MongoClient(os.getenv('DATABASE'))
     db = client.portfolio
     collection = db.contact
     collection.insert_one(data)
