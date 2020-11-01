@@ -36,7 +36,6 @@ def html_page(page_name):
 def submit_form():
     if request.method == 'POST':
         data = request.form.to_dict()
-        write_to_csv_file(data)
         write_to_database(data)
         return redirect('thank_you.html')
     else:
