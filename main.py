@@ -4,6 +4,8 @@ import os
 from pymongo import MongoClient
 from flask import Flask, request, redirect
 from flask.templating import render_template
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 
