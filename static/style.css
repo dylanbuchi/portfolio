@@ -144,6 +144,10 @@ title :hover {
   color: #5c0091;
 }
 
+.ic-tw :hover {
+  color: #1da1f2;
+}
+
 .ic-gc :hover {
   color: white;
 }
