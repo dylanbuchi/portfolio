@@ -1,11 +1,13 @@
 import csv
 import os
 
-from pymongo import MongoClient
 from flask import Flask, request, redirect
 from flask.templating import render_template
-from dotenv import load_dotenv
-load_dotenv()
+
+#for heroku heberger:
+# from pymongo import MongoClient
+# from dotenv import load_dotenv
+# load_dotenv()
 
 app = Flask(__name__)
 
@@ -38,19 +40,20 @@ def html_page(page_name):
 def submit_form():
     if request.method == 'POST':
         data = request.form.to_dict()
-        write_to_database(data)
+        write_to_csv_file(data)
         return redirect('thank_you.html')
     else:
-        return 'error'
+        return 'Error'
 
 
-def write_to_database(data: dict):
-    client = MongoClient(os.getenv('DATABASE'))
-    db = client.portfolio
-    collection = db.contact
-    collection.insert_one(data)
-    client.close()
+#for heroku heberger
 
+# def write_to_database(data: dict):
+#     client = MongoClient(os.getenv('DATABASE'))
+#     db = client.portfolio
+#     collection = db.contact
+#     collection.insert_one(data)
+#     client.close()
 
 if __name__ == '__main__':
     app.run()
